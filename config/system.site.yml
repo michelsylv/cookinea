@@ -1,0 +1,14 @@
+uuid: d2513134-3984-4941-9231-a8a566e39279
+name: Cookinea
+mail: sylvainmichel@live.fr
+slogan: 'Cooking for everyone'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
