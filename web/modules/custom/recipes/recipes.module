@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Contains recipes.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+function recipes_theme(){
+  $theme['recipe'] = array(
+      'render element' => 'elements',
+      'file' => 'recipe.page.inc',
+      'template' => 'recipe',
+  );
+  return $theme;
+}

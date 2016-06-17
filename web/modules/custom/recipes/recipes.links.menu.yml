@@ -1,0 +1,13 @@
+# Recipe entity menu items definition
+entity.recipe.collection:
+  title: 'Recipes list'
+  route_name: entity.recipe.collection
+  description: 'List of recipes'
+  parent: system.admin_structure
+  weight: 100
+
+recipe.admin.structure.settings:
+  title: Recipe entity settings
+  description: 'Configure Recipe entity'
+  route_name: recipe.settings
+  parent: system.admin_structure

@@ -1,0 +1,19 @@
+add recipe entity entities:
+  title: 'Create new Recipe entity entities'
+
+administer recipe entity entities:
+  title: 'Administer Recipe entity entities'
+  description: 'Allow to access the administration form to configure Recipe entity entities.'
+  restrict access: true
+
+delete recipe entity entities:
+  title: 'Delete Recipe entity entities'
+
+edit recipe entity entities:
+  title: 'Edit Recipe entity entities'
+
+view published recipe entity entities:
+  title: 'View published Recipe entity entities'
+
+view unpublished recipe entity entities:
+  title: 'View unpublished Recipe entity entities'

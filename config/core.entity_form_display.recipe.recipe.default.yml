@@ -1,0 +1,32 @@
+uuid: 614312b8-d0bf-42c8-89a3-eec01d3b529d
+langcode: en
+status: true
+dependencies:
+  module:
+    - recipes
+id: recipe.recipe.default
+targetEntityType: recipe
+bundle: recipe
+mode: default
+content:
+  langcode:
+    type: language_select
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
