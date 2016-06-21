@@ -1,0 +1,21 @@
+uuid: 5129678a-b0e0-48a7-9d4d-17c545a55f4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.recipe.field_recipe_cost
+  module:
+    - options
+    - recipes
+id: recipe.recipe.field_recipe_cost
+field_name: field_recipe_cost
+entity_type: recipe
+bundle: recipe
+label: Cost
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

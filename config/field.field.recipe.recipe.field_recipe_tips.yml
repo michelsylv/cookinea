@@ -1,0 +1,20 @@
+uuid: f2fe2c7d-7206-400a-ab4f-70b02d595bfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.recipe.field_recipe_tips
+  module:
+    - recipes
+id: recipe.recipe.field_recipe_tips
+field_name: field_recipe_tips
+entity_type: recipe
+bundle: recipe
+label: Tips
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

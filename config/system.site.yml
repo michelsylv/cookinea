@@ -1,11 +1,11 @@
 uuid: 511cbd3a-47da-407b-b2bd-1f36f14b20fc
 name: Cookinea
 mail: sylvainmichel@live.fr
-slogan: 'Create your own online cookbook easyly and free !'
+slogan: 'Create your own online cookbook easily and free !'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /last-recipes
 admin_compact_mode: false
 weight_select_max: 100
 langcode: fr

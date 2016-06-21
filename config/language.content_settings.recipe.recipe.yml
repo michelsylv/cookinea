@@ -1,0 +1,15 @@
+uuid: da591fa8-3cf3-48bd-8ab6-c863b2bf27b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - recipes
+third_party_settings:
+  content_translation:
+    enabled: true
+id: recipe.recipe
+target_entity_type_id: recipe
+target_bundle: recipe
+default_langcode: current_interface
+language_alterable: true

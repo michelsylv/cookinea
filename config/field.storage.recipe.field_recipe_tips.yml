@@ -1,0 +1,21 @@
+uuid: 533d29f6-bfb9-404e-8e25-1368d5303145
+langcode: en
+status: true
+dependencies:
+  module:
+    - recipes
+id: recipe.field_recipe_tips
+field_name: field_recipe_tips
+entity_type: recipe
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: e84ad040-6ff8-4617-9539-5fb5a2a1c561
+langcode: en
+status: true
+dependencies:
+  module:
+    - recipes
+id: recipe.field_recipe_time_preparation
+field_name: field_recipe_time_preparation
+entity_type: recipe
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
