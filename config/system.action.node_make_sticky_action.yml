@@ -1,4 +1,4 @@
-uuid: ad945cb7-8c40-4fbf-bc05-f5ddcee50424
+uuid: fe4a9da9-d0b3-4555-a9d7-bf96c31faacf
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
 id: node_make_sticky_action
-label: 'Make content sticky'
+label: 'Épingler un contenu en haut des listes'
 type: node
 plugin: node_make_sticky_action
 configuration: {  }

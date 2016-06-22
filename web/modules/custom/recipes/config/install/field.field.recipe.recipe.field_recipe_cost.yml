@@ -1,0 +1,20 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.recipe.field_recipe_cost
+  module:
+    - options
+    - recipes
+id: recipe.recipe.field_recipe_cost
+field_name: field_recipe_cost
+entity_type: recipe
+bundle: recipe
+label: Coût
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

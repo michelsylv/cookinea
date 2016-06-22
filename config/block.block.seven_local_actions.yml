@@ -1,4 +1,4 @@
-uuid: 5b2c009e-60ae-4b42-a6e6-f3ca5cc5a3ed
+uuid: 9cc4b517-774b-43e2-aa6d-0f47fb8079ee
 langcode: fr
 status: true
 dependencies:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: 'Primary admin actions'
+  label: 'Actions d''administration principales'
   provider: core
   label_display: '0'
 visibility: {  }

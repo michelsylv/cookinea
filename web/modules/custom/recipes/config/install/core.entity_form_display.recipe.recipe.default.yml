@@ -1,0 +1,80 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.recipe.recipe.field_recipe_conclusion
+    - field.field.recipe.recipe.field_recipe_cost
+    - field.field.recipe.recipe.field_recipe_description
+    - field.field.recipe.recipe.field_recipe_difficulty
+    - field.field.recipe.recipe.field_recipe_time_cooking
+    - field.field.recipe.recipe.field_recipe_time_preparation
+    - field.field.recipe.recipe.field_recipe_tips
+  module:
+    - recipes
+id: recipe.recipe.default
+targetEntityType: recipe
+bundle: recipe
+mode: default
+content:
+  field_recipe_conclusion:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_recipe_cost:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_recipe_description:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_recipe_difficulty:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_recipe_time_cooking:
+    weight: 8
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_recipe_time_preparation:
+    weight: 7
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_recipe_tips:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  langcode:
+    type: language_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  status: true
+  user_id: true

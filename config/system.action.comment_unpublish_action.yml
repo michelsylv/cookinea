@@ -1,4 +1,4 @@
-uuid: 6a0a2f57-2cc9-4f46-a817-1719f9b2eb53
+uuid: 89c4c888-6792-493b-8498-dccf009ba1bc
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: MLin6S_PsJ7Oo480DxS46D46IM8tqFkkWOLyH7TGByI
 id: comment_unpublish_action
-label: 'Unpublish comment'
+label: 'Dépublier le commentaire'
 type: comment
 plugin: comment_unpublish_action
 configuration: {  }

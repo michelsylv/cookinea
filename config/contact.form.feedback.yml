@@ -1,11 +1,11 @@
-uuid: 5c481192-e2e2-49f5-892c-a18400b5693b
+uuid: 3799e367-4d15-46af-b21e-ff2f02496dc1
 langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
 id: feedback
-label: 'Website feedback'
+label: 'Retours utilisateurs sur le site web'
 recipients:
   - admin@example.com
 reply: ''

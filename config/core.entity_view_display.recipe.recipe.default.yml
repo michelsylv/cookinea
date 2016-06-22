@@ -1,5 +1,5 @@
-uuid: 66666f4a-7071-4583-a25a-a7119d89a7ad
-langcode: en
+uuid: 4a3e66e2-2961-4566-91c0-6a6807220393
+langcode: fr
 status: true
 dependencies:
   config:
@@ -14,6 +14,8 @@ dependencies:
     - options
     - recipes
     - user
+_core:
+  default_config_hash: 2tcTDInUHFpRn0AV0xj4dIE4SBS-6HsELiT_-JNYjAQ
 id: recipe.recipe.default
 targetEntityType: recipe
 bundle: recipe

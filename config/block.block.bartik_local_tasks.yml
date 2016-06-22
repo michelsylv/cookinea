@@ -1,4 +1,4 @@
-uuid: 622216fd-5831-4a15-a727-1bf5d14eb1ab
+uuid: 455b4c0e-9be0-4782-9911-229a4d4eeea1
 langcode: fr
 status: true
 dependencies:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: Tabs
+  label: Onglets
   provider: core
   label_display: '0'
   primary: true

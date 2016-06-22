@@ -1,11 +1,11 @@
-uuid: acb81a65-8825-42e1-8a07-704bcafd2549
+uuid: 01630b5e-a84b-4f10-bb91-f093bbcecf13
 langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
-label: 'Anonymous user'
+label: 'Utilisateur anonyme'
 weight: 0
 is_admin: false
 permissions:

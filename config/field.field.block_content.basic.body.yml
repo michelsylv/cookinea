@@ -1,4 +1,4 @@
-uuid: 0df0ed69-bfd5-4bf2-b244-b5413003ea60
+uuid: b5889572-a3f8-4e55-9f45-dfc30ff721b4
 langcode: fr
 status: true
 dependencies:
@@ -13,10 +13,10 @@ id: block_content.basic.body
 field_name: body
 entity_type: block_content
 bundle: basic
-label: Body
+label: Corps
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

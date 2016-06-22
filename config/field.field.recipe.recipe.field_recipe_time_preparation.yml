@@ -1,11 +1,13 @@
-uuid: 063d7fb3-025c-48dd-b328-e54f3d88de9d
-langcode: en
+uuid: 129a88e6-737a-44cd-89e2-eae850d219c1
+langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.recipe.field_recipe_time_preparation
   module:
     - recipes
+_core:
+  default_config_hash: L8xFmw9gr2Ol6JOe_aPth-GiDpLG1dPOE56U3XEikec
 id: recipe.recipe.field_recipe_time_preparation
 field_name: field_recipe_time_preparation
 entity_type: recipe

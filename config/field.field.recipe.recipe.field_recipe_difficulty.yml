@@ -1,5 +1,5 @@
-uuid: 50a97126-1ac3-4d97-a6d5-88d3b9250f14
-langcode: en
+uuid: 87de983e-30d1-46ea-bb2b-ecaf8d23c51b
+langcode: fr
 status: true
 dependencies:
   config:
@@ -7,6 +7,8 @@ dependencies:
   module:
     - options
     - recipes
+_core:
+  default_config_hash: FwNIQqqCQP-YIgDJkR-bOnAee13R-l0wjP4i1po9B8I
 id: recipe.recipe.field_recipe_difficulty
 field_name: field_recipe_difficulty
 entity_type: recipe

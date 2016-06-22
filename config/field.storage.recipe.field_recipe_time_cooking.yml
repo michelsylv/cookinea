@@ -1,9 +1,11 @@
-uuid: 78cdfd12-0e7a-4dca-a969-e43681ab5ce1
-langcode: en
+uuid: 085fff07-edc2-48e8-82da-5ea36c130995
+langcode: fr
 status: true
 dependencies:
   module:
     - recipes
+_core:
+  default_config_hash: zvsb-RyG67jVO7LN28PsWNDPTVKkddty2m0AlDQm-Uk
 id: recipe.field_recipe_time_cooking
 field_name: field_recipe_time_cooking
 entity_type: recipe

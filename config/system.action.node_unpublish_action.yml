@@ -1,4 +1,4 @@
-uuid: 68d265ce-16c4-4e1c-b741-8eb06f2839ab
+uuid: ac2b2082-4fca-4518-b915-45aa0202b119
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: gGQXiSspwGl0lyOS6w_HCPpvGAPDciqDNLFwWOydVtI
 id: node_unpublish_action
-label: 'Unpublish content'
+label: 'Dépublier un contenu'
 type: node
 plugin: node_unpublish_action
 configuration: {  }

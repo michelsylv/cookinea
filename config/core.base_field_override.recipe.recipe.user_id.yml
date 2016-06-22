@@ -1,9 +1,11 @@
-uuid: fd1f7d01-732d-4fe3-9baa-274278b763fc
-langcode: en
+uuid: f7f4d6e4-3399-49bd-b99c-92f8799a5c79
+langcode: fr
 status: true
 dependencies:
   module:
     - recipes
+_core:
+  default_config_hash: UI_RXiR9pHf955_Pq0iXY_SmnhoVZRi8m7yeeVYgJ0U
 id: recipe.recipe.user_id
 field_name: user_id
 entity_type: recipe

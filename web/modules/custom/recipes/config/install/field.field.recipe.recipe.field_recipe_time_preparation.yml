@@ -1,0 +1,23 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.recipe.field_recipe_time_preparation
+  module:
+    - recipes
+id: recipe.recipe.field_recipe_time_preparation
+field_name: field_recipe_time_preparation
+entity_type: recipe
+bundle: recipe
+label: 'Temps de préparation'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' minute| minutes'
+field_type: integer

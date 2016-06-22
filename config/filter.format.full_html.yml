@@ -1,4 +1,4 @@
-uuid: d3c5495e-d4df-4aa2-9999-b578dd1ec18c
+uuid: db8c3503-a537-4b71-a1eb-c0dc8160ccba
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - editor
 _core:
   default_config_hash: hewPmBgni9jlDK_IjLxUx1HsTbinK-hdl0lOwjbteIY
-name: 'Full HTML'
+name: 'HTML complet'
 format: full_html
 weight: 1
 filters:

@@ -1,4 +1,4 @@
-uuid: 19636ad1-423e-44a3-9817-6dc4f10046e2
+uuid: 2ca7d842-e67e-4d5d-8cd5-d02379711867
 langcode: fr
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: Search
+  label: Rechercher
   provider: search
   label_display: visible
 visibility: {  }

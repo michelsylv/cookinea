@@ -3,3 +3,6 @@ type: module
 description: Recipes Module
 core: 8.x
 package: Cookinea
+dependencies:
+  - field
+  - options

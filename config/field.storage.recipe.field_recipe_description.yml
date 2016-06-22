@@ -1,9 +1,11 @@
-uuid: 3e9c2a72-e582-4c8b-affd-af76ab419279
-langcode: en
+uuid: 92c03904-52e3-4e20-ae28-363c65255859
+langcode: fr
 status: true
 dependencies:
   module:
     - recipes
+_core:
+  default_config_hash: htEbg_iYgUEmXPGW8mV3uonowrwGRlCn0mvi2s5H0VQ
 id: recipe.field_recipe_description
 field_name: field_recipe_description
 entity_type: recipe

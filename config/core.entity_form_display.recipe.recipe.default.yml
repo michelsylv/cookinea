@@ -1,5 +1,5 @@
-uuid: e7d591f0-f7a1-4b00-b44b-b71c9cb6a284
-langcode: en
+uuid: 02f4bf1b-7234-46a6-84f9-ed1dc4c49bf1
+langcode: fr
 status: true
 dependencies:
   config:
@@ -12,6 +12,8 @@ dependencies:
     - field.field.recipe.recipe.field_recipe_tips
   module:
     - recipes
+_core:
+  default_config_hash: SkWfeKJhJ6ozmjxUieIu1Fi7_tiPZiC7K1-sySTTIm0
 id: recipe.recipe.default
 targetEntityType: recipe
 bundle: recipe

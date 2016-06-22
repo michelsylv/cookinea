@@ -1,0 +1,19 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.recipe.field_recipe_conclusion
+  module:
+    - recipes
+id: recipe.recipe.field_recipe_conclusion
+field_name: field_recipe_conclusion
+entity_type: recipe
+bundle: recipe
+label: Conclusion
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,11 +1,13 @@
-uuid: 64ef4b88-b7bb-4781-9ce2-a514dcce0a28
-langcode: en
+uuid: 8326da38-10fd-4db8-85af-a84f7e3a9487
+langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.recipe.field_recipe_conclusion
   module:
     - recipes
+_core:
+  default_config_hash: MXqCbpP_Vy7Ykwh6fnaeg3Y0S0Tkj6WCB9qX5YQf1Tg
 id: recipe.recipe.field_recipe_conclusion
 field_name: field_recipe_conclusion
 entity_type: recipe

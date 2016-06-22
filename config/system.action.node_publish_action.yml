@@ -1,4 +1,4 @@
-uuid: 78253a67-03fe-49df-a803-0a80bf0b58f6
+uuid: 387521f0-dbc9-4f32-80a0-9bed69f15923
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: lsQkbo4njZ-Q_oGKCPGXGWFjWF1I7QpgA6m-t9rcRoA
 id: node_publish_action
-label: 'Publish content'
+label: 'Publier un contenu'
 type: node
 plugin: node_publish_action
 configuration: {  }

@@ -1,0 +1,19 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - recipes
+id: recipe.recipe.user_id
+field_name: user_id
+entity_type: recipe
+bundle: recipe
+label: 'Auteur'
+description: 'The user ID of author of the Recipe.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

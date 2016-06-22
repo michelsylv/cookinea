@@ -1,5 +1,5 @@
-uuid: 5129678a-b0e0-48a7-9d4d-17c545a55f4f
-langcode: en
+uuid: ff785196-61ee-4eb9-9858-2a546298b70b
+langcode: fr
 status: true
 dependencies:
   config:
@@ -7,6 +7,8 @@ dependencies:
   module:
     - options
     - recipes
+_core:
+  default_config_hash: Bk4oEMKlpI46iQgMHIjR1HppTkG_2gcwd7URuFzBY3c
 id: recipe.recipe.field_recipe_cost
 field_name: field_recipe_cost
 entity_type: recipe

@@ -1,10 +1,10 @@
-uuid: d44a2db0-28b7-4e50-9413-60afe47889c1
+uuid: 85c82b48-d6ce-4a57-baf1-4e4ef9beecb8
 langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: Z7KuCUwM_WdTNvLcoltuX3_8d-s-8FZkTN6KgNwF0eM
 id: html_month
-label: 'HTML Month'
+label: 'Mois HTML'
 locked: true
 pattern: Y-m

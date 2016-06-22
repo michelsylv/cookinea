@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "157dee2ba7027251a4191bc86e648ae1",
-    "content-hash": "b575948554d1d347bbdce86e52af17d4",
+    "hash": "869cf637519221cb0b0158223bcbc16c",
+    "content-hash": "c75db0c9687ed8bb44ab4887db0e0095",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -792,17 +792,67 @@
             "time": "2016-04-25 14:07:17"
         },
         {
+            "name": "drupal/config_update",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/config_update",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_update-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "21a351d44796e742944e8b2fedc283b888369e38"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "suggest": {
+                "drupal/drupal": "Required by drupal/config_update_ui"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.1.x": "1.1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1457466839"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "jhodgdon",
+                    "homepage": "https://www.drupal.org/user/155601"
+                },
+                {
+                    "name": "nedjo",
+                    "homepage": "https://www.drupal.org/user/4481"
+                }
+            ],
+            "description": "Provides basic revert and update functionality for other modules",
+            "homepage": "https://www.drupal.org/project/config_update",
+            "support": {
+                "source": "https://www.drupal.org/project/config_update"
+            }
+        },
+        {
             "name": "drupal/console",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/DrupalConsole.git",
-                "reference": "477200d91d6d355a17c7033ec00dbae7360024cf"
+                "reference": "c8d24469638ec5189c158e8f44c8d101c42c3513"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/477200d91d6d355a17c7033ec00dbae7360024cf",
-                "reference": "477200d91d6d355a17c7033ec00dbae7360024cf",
+                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/c8d24469638ec5189c158e8f44c8d101c42c3513",
+                "reference": "c8d24469638ec5189c158e8f44c8d101c42c3513",
                 "shasum": ""
             },
             "require": {
@@ -876,7 +926,7 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2016-06-15 17:32:05"
+            "time": "2016-06-21 02:12:01"
         },
         {
             "name": "drupal/core",
@@ -1286,6 +1336,82 @@
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
             "description": "Modify behavior and appearance of external links.",
             "homepage": "https://www.drupal.org/project/extlink"
+        },
+        {
+            "name": "drupal/features",
+            "version": "3.0.0-beta5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/features",
+                "reference": "8.x-3.0-beta5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/features-8.x-3.0-beta5.zip",
+                "reference": null,
+                "shasum": "2be44179bc19cc46d187903a30381b449f4379d3"
+            },
+            "require": {
+                "drupal/config_update": "*",
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.0.x": "3.0.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-beta5",
+                    "datestamp": "1465484039"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "e2thex",
+                    "homepage": "https://www.drupal.org/user/189123"
+                },
+                {
+                    "name": "febbraro",
+                    "homepage": "https://www.drupal.org/user/43670"
+                },
+                {
+                    "name": "hefox",
+                    "homepage": "https://www.drupal.org/user/426416"
+                },
+                {
+                    "name": "jmiccolis",
+                    "homepage": "https://www.drupal.org/user/31731"
+                },
+                {
+                    "name": "mpotter",
+                    "homepage": "https://www.drupal.org/user/616192"
+                },
+                {
+                    "name": "nedjo",
+                    "homepage": "https://www.drupal.org/user/4481"
+                },
+                {
+                    "name": "srjosh",
+                    "homepage": "https://www.drupal.org/user/165878"
+                },
+                {
+                    "name": "tim.plunkett",
+                    "homepage": "https://www.drupal.org/user/241634"
+                }
+            ],
+            "description": "Enables administrators to package configuration into modules.",
+            "homepage": "https://www.drupal.org/project/features",
+            "support": {
+                "source": "https://www.drupal.org/project/features"
+            }
         },
         {
             "name": "drupal/field_group",

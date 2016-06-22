@@ -1,4 +1,4 @@
-uuid: d1bb5fb6-df00-46ef-b8b9-20f0804d4676
+uuid: 771d246f-a167-4979-a4d1-28a9aedb9d42
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: lDM9mvIGAu8Sw8rt-uCO4Sr7yX5VPrDPxYcawkbKd6k
 id: node_make_unsticky_action
-label: 'Make content unsticky'
+label: 'Retirer un contenu du haut des listes'
 type: node
 plugin: node_make_unsticky_action
 configuration: {  }
