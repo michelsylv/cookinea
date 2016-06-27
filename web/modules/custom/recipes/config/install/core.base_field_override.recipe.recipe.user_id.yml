@@ -7,7 +7,7 @@ id: recipe.recipe.user_id
 field_name: user_id
 entity_type: recipe
 bundle: recipe
-label: 'Auteur'
+label: Auteur
 description: 'The user ID of author of the Recipe.'
 required: false
 translatable: false

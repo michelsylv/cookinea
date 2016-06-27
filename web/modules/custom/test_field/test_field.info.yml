@@ -1,0 +1,12 @@
+name: test_field
+type: module
+description: 'Test field Module'
+core: 8.x
+package: Cookinea
+dependencies:
+  - field
+  - language
+  - options
+  - recipes
+  - taxonomy
+  - user

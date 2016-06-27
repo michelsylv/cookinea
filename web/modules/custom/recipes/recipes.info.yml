@@ -1,8 +1,12 @@
 name: Recipes
 type: module
-description: Recipes Module
+description: 'Recipes Module'
 core: 8.x
 package: Cookinea
 dependencies:
   - field
+  - language
   - options
+  - recipes
+  - taxonomy
+  - user

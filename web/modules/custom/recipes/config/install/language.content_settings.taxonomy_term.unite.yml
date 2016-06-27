@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.unite
+id: taxonomy_term.unite
+target_entity_type_id: taxonomy_term
+target_bundle: unite
+default_langcode: site_default
+language_alterable: false
